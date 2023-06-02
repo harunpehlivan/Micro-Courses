@@ -53,7 +53,7 @@ def update_graph(option_slctd):
     print(option_slctd)
     print(type(option_slctd))
 
-    container = "The bee-killer chosen by user was: {}".format(option_slctd)
+    container = f"The bee-killer chosen by user was: {option_slctd}"
 
     dff = df.copy()
     dff = dff[dff["Affected by"] == option_slctd]
